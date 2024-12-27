@@ -1,5 +1,6 @@
 import streamlit as st
 import plotly.express as px
+import pandas as pd
 
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
